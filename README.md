@@ -2,7 +2,7 @@
 
 # Conceitos Básicos e Sintaxe
 
-* **Identação**
+### Identação
 
 Diferente de outras linguagens que utilizam chaves ou palavras-chave, o Python utiliza a indentação para determinar o escopo das declarações.
 Ex:
@@ -22,7 +22,7 @@ else:
     instrucao4
 ```
 
-* **Comentários**
+### Comentários
 
 Em Python os comentários de linha única começam com #, e os de várias linhas ficam entre 3 aspas duplas (""")
 Ex:
@@ -35,11 +35,11 @@ de várias linhas
 """
 ```
 
-* **Maiúsculas e minúsculas**
+### Maiúsculas e minúsculas
 
 Python distingue entre maiúsculas e minúsculas. Portanto, variável, Variável e VARIÁVEL são consideradas variáveis diferentes.
 
-* **Ponto e Vírgula**
+### Ponto e Vírgula
 
 Python não requer o uso de ponto e vírgula (;) ao final de cada instrução. No entanto, se você desejar escrever várias instruções em uma única linha, pode separá-las com um ponto e vírgula. 
 Ex:
@@ -47,7 +47,7 @@ Ex:
 instrucao1; instrucao2; instrucao3
 ```
 
-* **Uso de Parênteses**
+### Uso de Parênteses
 
 Os parênteses são utilizados para agrupar expressões, definir funções e realizar chamadas a funções.
 Ex:
@@ -59,6 +59,7 @@ resultado = (a + b) * c
 Em Python, os tipos de dados básicos são as categorias nas quais podemos classificar os valores que utilizamos em nossos programas.
 
 * **Inteiros(int)**
+
 Os números inteiros são aqueles que não têm parte decimal. Em Python, são representados simplesmente escrevendo o número sem aspas nem pontos decimais.
 Ex:
 ```python
@@ -66,6 +67,7 @@ idade = 25
 quantidade = 100
 ```
 * **Flutuantes(float)**
+
 Os números flutuantes, também conhecidos como números de ponto flutuante, são aqueles que têm uma parte decimal. Em Python, são representados utilizando um ponto para separar a parte inteira da parte decimal.
 Ex:
 ```python
@@ -74,6 +76,7 @@ altura = 1.75
 ```
 
 * **Cadeias de Texto(Strings)**
+
 As cadeias de texto, ou simplesmente cadeias, são sequências de caracteres encerradas entre aspas simples ('...') ou duplas ("..."). São utilizadas para representar texto em Python.
 Ex:
 ```python
@@ -82,6 +85,7 @@ mensagem = '¡Hola, mundo!'
 ```
 
 * **Booleanos**
+
 Os valores booleanos representam os valores de verdade: True (verdadeiro) e False (falso). São comumente utilizados em expressões condicionais e operações lógicas.
 Ex:
 ```python
@@ -92,7 +96,7 @@ tem desconto = False
 
 # Variáveis
 
-### Declaraçao e atribuição de variáveis
+### Declaração e atribuição de variáveis
 As variáveis são contêineres que nos permitem armazenar e manipular dados em nossos programas. Para declarar e atribuir um valor a uma variável em Python, utilizamos o operador de atribuição =. O nome da variável vai à esquerda do operador, e o valor que você deseja atribuir vai à direita.
 Ex:
 ```python
